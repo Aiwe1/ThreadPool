@@ -85,7 +85,7 @@ MainWindow::MainWindow(QWidget *ptr = nullptr) : QWidget(ptr)
     pal.setColor(QPalette::Background, Qt::gray);
     this->setAutoFillBackground(true);
     this->setPalette(pal);
-    this->setWindowTitle("Тестовое задание");
+    this->setWindowTitle("Пул Потоков");
     this->resize(700, 700);
 }
 
